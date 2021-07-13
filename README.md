@@ -1,6 +1,7 @@
 # Monitoring-ec2-using-prometheus-grafana
 
 Monitoring using Prometheus and Grafana on AWS EC2
+https://devops4solutions.com/monitoring-using-prometheus-and-grafana-on-aws-ec2/
 # Prerequisite:
 
     >>  Prometheus EC2 instance t2.micro 
