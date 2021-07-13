@@ -3,16 +3,16 @@
 Monitoring using Prometheus and Grafana on AWS EC2
 # Prerequisite:
 
-  >>  Prometheus EC2 instance t2.micro 
-  >>  Node EC2 instances to monitor
-  >>  Security Groups Configured properly
+    >>  Prometheus EC2 instance t2.micro 
+    >>  Node EC2 instances to monitor
+    >>  Security Groups Configured properly
 
 # Security Groups Configured on EC2 Instances
-  >>  Port 9090 — Prometheus Server
+    >>  Port 9090 — Prometheus Server
 
-  >>  Port 9100 — Prometheus Node Exporter
+    >>  Port 9100 — Prometheus Node Exporter
 
-  >>  Port 3000 — Grafana
+    >>  Port 3000 — Grafana
 
 # Prometheus EC2 Instance
   Configure the security group on EC2 Instance where Prometheus Server is installed as shown below :
